@@ -1,0 +1,57 @@
+@import 'tailwindcss';
+@plugin "daisyui" {
+  themes: light --default;
+}
+@plugin "daisyui/theme" {
+  name: 'light';
+  default: true;
+  --color-primary: #ffd51e;
+  --color-secondary: #000000;
+  --color-accent: #8a8a8a;
+}
+
+:root {
+  --font-body: 'Poppins', sans-serif;
+  --font-heading: 'Microgramma D Extended', sans-serif;
+  --font-body-size: 16px;
+  --heading-font-weight: 600;
+  --line-height-body: 1.6;
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-pill: 9999px;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--font-body-size);
+  line-height: var(--line-height-body);
+}
+
+@font-face {
+  font-family: 'Microgramma D Extended';
+  src: url('/src/assets/LogoFont.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.btn-primary {
+  border: none;
+  box-shadow: none;
+  font-family: var(--font-body);
+  background-color: var(--color-primary);
+  color: #ffffff;
+}
+
+.btn-secondary {
+  border: none;
+  box-shadow: none;
+  font-family: var(--font-body);
+  background-color: var(--color-secondary);
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-secondary);
+  color: #ffffff;
+}

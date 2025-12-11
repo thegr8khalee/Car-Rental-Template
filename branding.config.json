@@ -1,0 +1,96 @@
+{
+  "company": {
+    "name": "Demo renatals",
+    "legalName": "Demo renatals Automobile",
+    "tagline": "Where automotive dreams meet expert guidance",
+    "ceo": {
+      "name": "Saminu",
+      "bioTemplate": "I am {ceoName}, the CEO of {companyName}. With a passion for cars and a vision to revolutionize the automotive industry, I lead our team to deliver exceptional service and value to our customers."
+    }
+  },
+  "branding": {
+    "logoAlt": "Demo renatals logo",
+    "colors": {
+      "primary": "#ff0000",
+      "secondary": "#000000",
+      "accent": "#8a8a8a"
+    },
+    "typography": {
+      "bodyFont": "'Inter', sans-serif",
+      "headingFont": "'Microgramma D Extended', sans-serif",
+      "bodySize": "16px",
+      "headingWeight": "600",
+      "lineHeight": "1.6"
+    },
+    "borderRadius": {
+      "sm": "0.5rem",
+      "md": "1rem",
+      "lg": "1.5rem",
+      "pill": "9999px"
+    },
+    "assets": {
+      "favicon": {
+        "default": "/vite.svg",
+        "light": null,
+        "dark": null,
+        "appleTouch": null
+      }
+    }
+  },
+  "contact": {
+    "emails": {
+      "info": "info@demorenatals.com",
+      "support": "support@demorenatals.com",
+      "sales": "sales@demorenatals.com"
+    },
+    "phones": {
+      "main": {
+        "display": "+123456789",
+        "value": "+123456789"
+      },
+      "support": {
+        "display": "+123456789",
+        "value": "+123456789"
+      },
+      "sales": {
+        "display": "+123456789",
+        "value": "+123456789"
+      }
+    },
+    "address": {
+      "line1": "3F3G+74Q, Olusegun Obasanjo Wy",
+      "line2": "Beside NNPC Mega Gas Station, Central Business District",
+      "city": "Abuja",
+      "region": "Federal Capital Territory",
+      "country": "Nigeria",
+      "postalCode": "900103",
+      "formatted": "3F3G+74Q, Olusegun Obasanjo Wy, beside NNPC Mega Gas Station, Central Business District, Abuja 900103, Federal Capital Territory, Nigeria"
+    },
+    "hours": [
+      {
+        "label": "Monday - Friday",
+        "value": "9:00 AM - 6:00 PM"
+      },
+      {
+        "label": "Saturday",
+        "value": "10:00 AM - 4:00 PM"
+      },
+      {
+        "label": "Sunday",
+        "value": "Closed"
+      }
+    ],
+    "location": {
+      "latitude": 9.053328635799218,
+      "longitude": 7.475317593815377
+    }
+  },
+  "features": {
+    "blog": true,
+    "rentals": true,
+    "selling": true,
+    "admin": true,
+    "showTestimonials": true,
+    "showNewsletter": true
+  }
+}
